@@ -1,0 +1,76 @@
+
+
+body {
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+header {
+    background-color: #FFB600;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.header {
+    padding-bottom: 10px;
+}
+
+h1 {
+    margin: 0.3em 0;
+}
+header h1 {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+header h2 {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.cards {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bio {
+    position: relative;
+    border: 1px solid lightgrey;
+    top: -5px;
+    padding: 20px;
+}
+
+.cardname {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .col-3, .col-4, .col-6, .col-12 {
+        margin-bottom: 20px;
+    }
+
+    .cards{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    
+    .header {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    header {
+        font-size: .75em;
+        margin-bottom: 25px;
+        padding-bottom: 0;
+    }
+    .bio {
+        font-size: 14px;
+    }
+}
+
